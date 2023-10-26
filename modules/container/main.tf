@@ -29,7 +29,7 @@ resource "aws_ecs_service" "service" {
    assign_public_ip = true
  }
  
- lifecycle {
-   ignore_changes = [task_definition, desired_count]
- }
+ #lifecycle {
+ #  ignore_changes = [task_definition, desired_count]
+ #}
 }

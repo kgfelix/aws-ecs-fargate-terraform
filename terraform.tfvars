@@ -1,0 +1,12 @@
+aws_region              = "yy-yyyy-1"
+app_name                = "node-app"
+vpc_id                  = "vpc-yyyyyyyyyyy"
+subnet_id               = "subnet-yyyyyyyyyy"
+security_group_id       = "sg-yyyyyyyyyy"
+image_app_uri           = "xxxxxxxxxx.dkr.ecr.yy-yyyy-1.amazonaws.com/node-app:latest"
+ecs_task_role           = "arn:aws:iam::xxxxxxxxxx:role/ecsInstanceRole"
+ecs_task_execution_role = "arn:aws:iam::xxxxxxxxxx:role/ecsTaskExecutionRole"
+container_port = 80
+container_host = 80
+task_cpu = 1024
+task_memory = 2048
