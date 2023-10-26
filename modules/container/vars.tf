@@ -1,0 +1,11 @@
+variable app_name {}
+variable vpc_id {}
+variable subnet_id {}
+variable security_group_id {}
+variable container_port {}
+variable container_host {}
+variable task_cpu {}
+variable task_memory {}
+variable image_app_uri {}
+variable ecs_task_role {}
+variable ecs_task_execution_role {}
